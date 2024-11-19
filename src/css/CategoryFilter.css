@@ -1,0 +1,46 @@
+.category-filter {
+    position: absolute;
+    top: 80%;
+    left: 12%;
+    display: flex;
+    justify-content: center;
+    gap: 12px; 
+    margin: 20px 0;
+    flex-wrap: wrap;
+    background-color: transparent; 
+    padding: 10px; 
+    border-radius: 12px;
+}
+
+.category-button {
+    padding: 10px 18px; 
+    font-size: 14px; 
+    font-weight: 500; 
+    border-radius: 18px; 
+    border: 1px solid #ccc;
+    background-color: #fff; 
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+    outline: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.category-button:hover {
+    background-color: #e0e0e0; 
+    color: #333;
+    transform: none; 
+}
+
+.category-button.active {
+    background-color: #00b4c1; 
+    color: white;
+    border-color: #00b4c1;
+    font-weight: 600; 
+}
+
+.category-button:focus {
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
