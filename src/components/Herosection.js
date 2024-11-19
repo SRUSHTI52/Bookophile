@@ -5,13 +5,13 @@ import img from "../image/bckg.png";
 
 
 
-const Herosection = () => {
+const Herosection = ({cart}) => {
   return (
     <div
       className="hero-section"
     >
     <img src={img}/>
-    <div className="nav">  <Navbar/></div>
+    <div className="nav">   <Navbar cart={cart} /></div>
       <div className="overlay">
 
         <h1>Discover the Joy of Reading</h1>

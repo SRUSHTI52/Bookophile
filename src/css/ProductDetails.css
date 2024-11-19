@@ -12,23 +12,7 @@
   .back{
    background: linear-gradient(to right, #ea6315, #ffffff);
   }
-  
-  .back-arrow {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-    cursor: pointer;
-    color: #000000;
-    text-decoration: none;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .back-arrow:hover {
-    color: #000000;
-    transform: scale(1.03);
-  }
+
   
   .product-details-content {
     
